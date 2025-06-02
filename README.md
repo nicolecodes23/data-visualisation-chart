@@ -8,7 +8,7 @@ A comprehensive data visualization suite showcasing three interactive chart type
 ## 📂 Project Structure
 
 - **`data/`**: All CSV files used by the charts  
-- **`lib/`**: Third-party libraries (D3.js, Three.js, etc.)  
+- **`lib/`**: Third-party libraries p5.js
 - **`index.html`**: Entry point that imports all charts and libraries
 
 
