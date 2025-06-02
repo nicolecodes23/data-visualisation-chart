@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif
+}
+
+.menu-item {
+    width: 250px;
+    height: 50px;
+    border: 1px solid gray;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background: lightgray
+}
+
+.selected{
+    background: gold
+}
+
+#years, #years2 {
+    margin: 10px;
+}
+
+#years button, #years2 button {
+    margin: 5px;
+    background-color: #333D79FF;
+    color: #FAEBEFFF;
+    padding: 5px;
+}
+
+#years button:hover, #years2 button:hover {
+    background-color:  #FAEBEFFF;
+    color: #333d79ff;
+}
+
+#years2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%; 
+    position: relative;
+    left: 100px;
+    bottom: 75px;
+}
+
